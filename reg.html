@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        .section2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            text-align: right;
+            width: 30%;
+        }
+
+        .lenght,
+        select,
+        textarea {
+            width: 100%;
+            padding: 3px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .gender input {
+            width: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .color {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>If you are an existing client with us, Please log into your account below.</h2>
+            <fieldset>
+                <div>
+                    <legend>Login</legend>
+                    <p>Email: <br>
+                        <input type="email" name="email" placeholder="john@example.com">
+                    </p>
+                    <p>
+                        Password: <br>
+                        <input type="password" name="password" placeholder="Type in password">
+                    </p>
+                    <p>
+                        Sign In here <a href="product.html"><input type="button" value="Sign In"></a>
+                    </p>
+                </div>
+            </fieldset>
+        </section>
+        <section class="section2">
+            <div class="centre">
+                <h2>If you dont have an account, create one with us now.</h2>
+                <div class="container">
+                    <form>
+                        <table>
+                            <tr>
+                                <td colspan="2" style="text-align: center;">
+                                    <h2>Registration Form</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Student name</td>
+                                <td class="color"><input type="text" class="lenght" placeholder="Type your name"></td>
+                            </tr>
+                            <tr>
+                                <td>Fathers name</td>
+                                <td class="color"><input type="text" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Mothers name</td>
+                                <td class="color"><input type="text" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Date of birth</td>
+                                <td class="color"><input type="date" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td class="gender color">
+                                    <input type="radio" name="gender" value="male"> Male
+                                    <input type="radio" name="gender" value="female"> Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email ID</td>
+                                <td class="color"><input type="email" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Country</td>
+                                <td class="color lenght">
+                                    <select>
+                                        <option>Nigeria</option>
+                                        <option>Canada</option>
+                                        <option>Ghana</option>
+                                        <option>Cameron</option>
+                                        <option>United States</option>
+                                        <option>Congo</option>
+                                        <option>South Africa</option>
+                                        <option>Morocco</option>
+                                        <option>India</option>
+                                        <option>Indonesia</option>
+                                        <option>United Kingdom</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td class="color"><input type="password" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Confirm Password</td>
+                                <td class="color"><input type="password" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Mobile No</td>
+                                <td class="color"><input type="number" class="lenght"></td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td class="color"><textarea rows="3"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>State</td>
+                                <td class="color lenght">
+                                    <select>
+                                        <option>Lagos</option>
+                                        <option>Oyo</option>
+                                        <option>Akwa Ibom</option>
+                                        <option>Kano</option>
+                                        <option>Ogun</option>
+                                        <option>Bayelsa</option>
+                                        <option>Ekiji</option>
+                                        <option>Cross River</option>
+                                        <option>Sokoto</option>
+                                        <option>Benue</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>City</td>
+                                <td class="color lenght">
+                                    <select>
+                                        <option>Ikeja</option>
+                                        <option>Surulere</option>
+                                        <option>Ikorodun</option>
+                                        <option>Lekki</option>
+                                        <option>Apapa</option>
+                                        <option>Island</option>
+                                        <option>Mushin</option>
+                                        <option>Ketu</option>
+                                        <option>Agege</option>
+                                        <option>Aja</option>
+                                        <option>Yaba</option>
+                                        <option>Osodi</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="color">
+                                    <a href="product.html"><button type="submit">Sign Up</button></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+        </section>
+        Page 2
+    </main>
+</body>
+
+</html>
